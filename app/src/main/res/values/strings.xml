@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TELE-WEATHER</string>
+
+    <!-- MainActivity -->
+    <string name="subtitle">Seguimiento y Predicción del Clima Mundial</string>
+    <string name="btn_enter">Ingresar</string>
+    <string name="made_by">Elaborado por: %1$s/%2$s</string>
+
+    <!-- Dialogs -->
+    <string name="no_internet_title">Sin conexión a Internet</string>
+    <string name="no_internet_message">No se puede acceder a la aplicación sin conexión a Internet.</string>
+    <string name="btn_settings">Configuración</string>
+    <string name="btn_cancel">Cancelar</string>
+
+    <!-- LocationFragment -->
+    <string name="location_search_title">Búsqueda de Locaciones</string>
+    <string name="hint_location_search">Buscar por Ciudad/Distrito</string>
+    <string name="btn_search">Buscar</string>
+    <string name="empty_search_error">Ingrese una ubicación para buscar</string>
+    <string name="searching_locations">Buscando ubicaciones…</string>
+    <string name="no_locations_found">No se encontraron ubicaciones</string>
+    <string name="error_searching_locations">Error al buscar ubicaciones</string>
+    <string name="error_connection">Error de conexión: %1$s</string>
+
+    <!-- ForecasterFragment -->
+    <string name="forecaster_title">Pronósticos del Clima</string>
+    <string name="forecaster_location_title">Pronóstico para %1$s</string>
+    <string name="hint_location_id">ID Localización</string>
+    <string name="hint_days">Días</string>
+    <string name="error_incomplete_fields">Complete todos los campos</string>
+    <string name="error_days_range">Los días deben estar entre 1 y 14</string>
+    <string name="loading_forecast">Obteniendo pronóstico…</string>
+    <string name="error_getting_forecast">Error al obtener el pronóstico</string>
+
+    <!-- ClearForecastDialog -->
+    <string name="clear_forecasts_title">Limpiar pronósticos</string>
+    <string name="clear_forecasts_message">¿Desea eliminar los pronósticos actuales?</string>
+    <string name="btn_yes">Sí</string>
+    <string name="btn_no">No</string>
+
+    <!-- FutureFragment -->
+    <string name="future_title">Pronóstico Futuro</string>
+    <string name="future_location_title">Pronóstico Futuro para %1$s</string>
+    <string name="hint_future_date">YYYY-MM-DD</string>
+    <string name="loading_future_forecast">Obteniendo pronóstico futuro…</string>
+    <string name="error_getting_future_forecast">Error al obtener el pronóstico futuro</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_locations">Locaciones</string>
+    <string name="nav_forecaster">Pronóstico</string>
+    <string name="nav_future">Futuro</string>
+</resources>
